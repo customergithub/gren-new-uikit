@@ -1825,8 +1825,8 @@ var Icon$O = function (props) {
 
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React.createElement("image", { width: "205", height: "26", href: isDark ? '/images/gren/textLogo.png' : '/images/gren/textLogo.png' })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 100 26" }, props),
+        React.createElement("image", { width: "100", height: "26", href: isDark ? '/images/gren/textLogo.png' : '/images/gren/textLogo.png' })));
 };
 
 var Icon$P = function (props) {
@@ -2759,10 +2759,10 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#0E0D12", backgroundDisabled: "#E9EAEB", contrast: "#1b0234", invertedContrast: "#1b0234", input: "#6e558f", tertiary: "#4E9F3D", text: "#FFFFFF", textDisabled: "#BDC2C4", textSubtle: "#F4EEFF", borderColor: "#E9EAEB", card: "#202028", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#0E0D12", backgroundDisabled: "#E9EAEB", contrast: "#1b0234", invertedContrast: "#1b0234", input: "#17122b", tertiary: "#4E9F3D", text: "#FFFFFF", textDisabled: "#BDC2C4", textSubtle: "#F4EEFF", borderColor: "#E9EAEB", card: "#202028", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#7b972e", background: "#0E0D12", backgroundDisabled: "#3c3742", contrast: "#1b0234", invertedContrast: "#1b0234", input: "#6e558f", primaryDark: "#0098A1", tertiary: "#4E9F3D", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#F4EEFF", borderColor: "#524B63", card: "#202028", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#7b972e", background: "#0E0D12", backgroundDisabled: "#3c3742", contrast: "#1b0234", invertedContrast: "#17122b", input: "#6e558f", primaryDark: "#0098A1", tertiary: "#4E9F3D", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#F4EEFF", borderColor: "#524B63", card: "#202028", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
